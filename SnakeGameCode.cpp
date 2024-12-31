@@ -67,4 +67,10 @@ void Input() {
         case 'a':
             dir = LEFT;
             break;
+               case 'd':
+            dir = RIGHT;
+            break;
+        case 'w':
+            dir = UP;
+            break;
 
