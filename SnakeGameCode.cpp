@@ -22,3 +22,9 @@ void Setup() {
     fruitY = rand() % height;
     score = 0;
 }
+
+void Draw() {
+    system("cls"); // Clear the console
+    for (int i = 0; i < width + 2; i++)
+        cout << "#";
+    cout << endl;
