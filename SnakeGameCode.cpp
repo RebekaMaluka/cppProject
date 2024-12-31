@@ -73,4 +73,14 @@ void Input() {
         case 'w':
             dir = UP;
             break;
+            
+        case 's':
+            dir = DOWN;
+            break;
+        case 'x':
+            gameOver = true;
+            break;
+        }
+    }
+}
 
