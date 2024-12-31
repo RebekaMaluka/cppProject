@@ -84,7 +84,9 @@ bool isGameOver;
             }
         }
         //Function to set the game difficulty level
-        
+        int setDifficulty(){
+            int dfc
+        }
     }
 
 
