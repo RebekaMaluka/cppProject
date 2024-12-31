@@ -61,4 +61,10 @@ void Draw() {
 
     cout << "Score: " << score << endl;
 }
+void Input() {
+    if (_kbhit()) {
+        switch (_getch()) {
+        case 'a':
+            dir = LEFT;
+            break;
 
