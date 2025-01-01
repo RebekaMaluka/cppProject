@@ -130,3 +130,13 @@ for (int i = 1; i < nTail; i++) {
         nTail++;
     }
 }
+int main() {
+    Setup();
+    while (!gameOver) {
+        Draw();
+        Input();
+        Logic();
+        Sleep(100); // Slow down the game loop
+    }
+    return 0;
+}
